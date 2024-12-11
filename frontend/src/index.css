@@ -4,11 +4,11 @@
 
 *{
   margin: 0;
+  padding: 0;
 }
 
 .navbar-brand {
   color: rgb(255, 255, 255);
-  padding-left: 25px;
 }
 
 .signup-role {
@@ -21,9 +21,9 @@
 }
 
 .navbar{
-  height: 60px;
+  height: 50px;
   width: 100%;
-  background-color: rgba(100, 100, 100);
+  background-color: rgb(49, 49, 49);
 }
 
 .nav-item {
@@ -116,7 +116,53 @@
   font-size: 30px;
 }
 
+.main {
+  width: 100%;
+  height: 100vh;
+}
 
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-ls{
+  display: flex;
+  height: 100px;
+  width: 200px;
+  background-color: aliceblue;
+}
+
+.login-signup {
+  height: 50px;
+  width: 50px;
+}
+
+.navbar-main {
+  z-index: 99;
+  height: 50px;
+  width: 100%;
+  background-color: aqua;
+}
 
