@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+}
+
+.navbar-brand {
+  color: rgb(255, 255, 255);
+  padding-left: 25px;
+}
+
+.signup-role {
+  padding: 0px 0px 15px 35px;
+}
+
+.box{
+  width: 300px;
+  padding: 10px;
+}
+
+.navbar{
+  height: 60px;
+  width: 100%;
+  background-color: rgba(100, 100, 100);
+}
+
+.nav-item {
+  padding-right: 25px;
+}
+
+.common-container {
+  height: 600px;
+  width: 80%;
+  background-color: white;
+  padding: 15px;
+}
+
+.vendor-inputs {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 50px;
+}
+
+.vendor-input {
+  padding: 10px;
+  min-width: 300px;
+}
+
+.vendor-sumbit{
+  padding-top: 23px;
+}
+
+.admin-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.event-list {
+  display: flex;
+  width: 750px;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.admin-events {
+  width: 500px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.admin-container button{
+  margin: 5px;
+}
+
+.customer-input{
+  width: 400px;
+}
+
+.customer-event-select {
+  margin: 5px;
+}
+
+.customer-input {
+  display: flex;
+}
+
+.customer-ticket-input{
+  width: 150px;
+}
+
+.manage-tickets {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.manage-event-ticket {
+  height: 40px;
+  width: 400px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.h1-font {
+  font-size: 30px;
+}
+
+
+
+
+
